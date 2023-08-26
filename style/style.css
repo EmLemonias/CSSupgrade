@@ -1,0 +1,133 @@
+.top-container {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80%;   
+    background-color: #03A2DC;
+}
+
+#work{
+    height: 50px;
+    align-self: start;
+}
+
+#approved {    
+    align-self: end;
+    height: 100px;    
+}
+
+#title {  
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;    
+    color: #DB4E32;
+    margin-top: 30px;  
+    
+}
+
+#subtitle {            
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #106D8F;
+    margin-bottom: 30px;     
+}
+
+#myfoto{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.lead {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #106D8F;
+}
+
+.display-5{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #DB1844;
+}
+
+hr {    
+    color: #106D8F;
+    width: 30%;
+    margin: auto; 
+    padding-bottom: 80px;      
+}
+
+#myskills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #DB1844;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.monkey {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #106D8F;    
+}
+
+.monkey img {
+    height: 240px;    
+    padding-left: 20%;    
+    padding-bottom: 40px;
+}
+
+.monkey.text {
+    margin-left: 30px;
+}
+
+.sail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #106D8F; 
+}
+
+.sail img {
+    height: 255px;    
+    padding-left: 20%;    
+    padding-bottom: 40px;
+}
+
+.sail.text {
+    padding-left: 30px;
+}
+
+#touch{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    color: #DB1844;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #03A2DC;
+    font-family: 'Pacifico', cursive;
+    color: #DB4E32;
+    
+}
+
+#footer{
+    background-color: #03A2DC;
+}
